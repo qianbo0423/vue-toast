@@ -5,7 +5,9 @@
 
 
 一个vue toast 组件 ，两种形式 一种是横着排的
-
+toast.1.vue 是一种
+toast.vue 是一种
+弹出的窗口两秒后消失
 
 ## Build Setup
 
