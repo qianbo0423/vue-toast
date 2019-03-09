@@ -4,9 +4,9 @@
 > A Vue.js project
 
 
-一个vue toast 组件 ，两种形式 一种是横着排的
-toast.1.vue 是一种
-toast.vue 是一种
+#一个vue toast 组件 ，两种形式 一种是横着排的
+toast.1.vue 是一种，
+toast.vue 是一种，
 弹出的窗口两秒后消失
 
 ## Build Setup
@@ -21,4 +21,5 @@ npm run dev
 # build for production with minification
 npm run build
 ```
-[docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 将要增加的组件
+
