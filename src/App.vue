@@ -1,39 +1,18 @@
 <template>
   <div id="app">
-    <button @click="showAreaSelect">点我</button>
-    <vue-area-select :isShow="isShow"
-                     :font-size="size"
-                     active-color="green"
-                     :line-height="height"
-                     @fade="toggle"
-                     @selectdone="alertData"></vue-area-select>
+    <input type="button" value="显示弹窗" @click="showToast">	
+	<div> 
+	</div>
   </div>
+  
+  
 </template>
-
 <script>
-export default {
-  name: 'app',
-  data () {
-    return {
-      isShow : false,
-      size:18,
-      height:36
-    }
-  },
-  methods: {
-    showAreaSelect () {
-      this.toggle()
-    },
-    toggle () {
-      this.isShow = !this.isShow
-    },
-    alertData (data) {
-      alert(JSON.stringify(data))
+  export default {
+    methods: {
+      showToast () {
+        this.$toast('我是弹出消息')
+      }
     }
   }
-}
 </script>
-
-<style lang="scss">
-
-</style>
